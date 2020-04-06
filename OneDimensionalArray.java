@@ -55,10 +55,10 @@ public class OneDimensionalArray {
         int newValue;
 
         for (int i = 0; i < theArray.length; i++) {
-            newValue = IR4.getRandomNumber(MIN, MAX);
+            newValue = (int)(Math.random() * ((MAX + 1) - MIN)) + low;
             //if the value is not unique, a new value should be generated.
             while(!isValueUnique(theArray,newValue)){
-                newValue = IR4.getRandomNumber(MIN, MAX);
+                newValue = (int)(Math.random() * ((MAX + 1) - MIN)) + low;
             }
             theArray[i]=newValue;
         }
