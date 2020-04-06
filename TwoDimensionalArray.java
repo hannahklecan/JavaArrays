@@ -14,7 +14,7 @@ public class TwoDimensionalArray {
     */ 
     public static void main(String[] args) {
     
-       CIS131_HannahKlecan_Lab4.main(null);
+       Lab4.main(null);
     }   
 
     /*********************************************************************************************************
@@ -57,10 +57,10 @@ public class TwoDimensionalArray {
 
         for (int i = 0; i < theArray.length; i++) {
             for(int j = 0; j < theArray[i].length; j++) {
-                newValue = IR4.getRandomNumber(MIN, MAX);
+                newValue =(int)(Math.random() * ((MAX + 1) - MIN)) + MIN;
                 //if the value is not unique, a new value should be generated.
                 while (!isValueUnique(theArray, newValue)) {
-                    newValue = IR4.getRandomNumber(MIN, MAX);
+                    newValue = (int)(Math.random() * ((MAX + 1) - MIN)) + MIN;
                 }
                 theArray[i][j] = newValue;
             }
