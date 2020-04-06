@@ -14,7 +14,7 @@ public class TwoDimensionalArray {
     */ 
     public static void main(String[] args) {
     
-       Lab4.main(null);
+        Lab4_Arrays.main(null);
     }   
 
     /*********************************************************************************************************
