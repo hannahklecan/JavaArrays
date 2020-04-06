@@ -1,11 +1,11 @@
 /*
  * Author: Hannah Klecan
- * CIS131 Lab4: Arrays
+ * Lab4: Arrays
  * This program gives the user the option of processing a 1 or 2D array.
  * Once chosen, the program finds the min/max value, index, sum and average. 
  * Finally, the program will sort the array using the insertion sort method. 
  */
-public class CIS131_HannahKlecan_Lab4 {
+public class Lab4_Arrays {
 
     final static int OPTION_1 = 1;
     final static int OPTION_2 = 2;
