@@ -13,7 +13,7 @@ public class OneDimensionalArray {
     */ 
     public static void main(String[] args) {
     
-       CIS131_HannahKlecan_Lab4.main(null);
+       Lab4_Arrays.main(null);
     }   
 
     /*********************************************************************************************************
